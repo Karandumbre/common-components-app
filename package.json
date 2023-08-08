@@ -22,7 +22,8 @@
     "build-examples": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "build": "rm -rf common-components && babel src/common --out-dir common-components --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+    "build": "rm -rf common-components && babel src/common --out-dir common-components --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "create-tarball": "tar -czvf common-components-1.0.0.tgz -C common-components ."
   },
   "dependencies": {
     "@babel/preset-env": "^7.22.10",
