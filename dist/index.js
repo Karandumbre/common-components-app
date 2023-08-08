@@ -10,6 +10,12 @@ Object.defineProperty(exports, "Button", {
     return _Button["default"];
   }
 });
+Object.defineProperty(exports, "Image", {
+  enumerable: true,
+  get: function get() {
+    return _image["default"];
+  }
+});
 Object.defineProperty(exports, "TextInput", {
   enumerable: true,
   get: function get() {
@@ -18,3 +24,4 @@ Object.defineProperty(exports, "TextInput", {
 });
 var _TextInput = _interopRequireDefault(require("./components/TextInput/TextInput"));
 var _Button = _interopRequireDefault(require("./components/Button/Button"));
+var _image = _interopRequireDefault(require("./components/Image/image"));
